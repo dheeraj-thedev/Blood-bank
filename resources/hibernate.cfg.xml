@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="Session">
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/blood_bank_new</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        
+        <property name="show_sql">true</property>
+        <property name="current_session_context_class">thread</property>
+        <mapping resource="com/bloodbank/model/UserDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/DonorDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/HospitalDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/PatientDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/EventStaffDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/IssueDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/TestDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/EventDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/CommentDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/BloodBottleDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/AccountDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/InventoryDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/StaffDetail.hbm.xml" />
+        <mapping resource="com/bloodbank/model/ContactDetail.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>

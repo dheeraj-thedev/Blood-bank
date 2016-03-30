@@ -1,0 +1,71 @@
+
+a
+{
+   color: #253737;
+   
+}
+a:visited
+{
+   color: #3A5375;
+}
+a:active
+{
+   color: #253737;
+}
+a:hover
+{
+   color: #900000;
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+$(document).ready
+(
+function()
+{
+   var jQueryTabs1Opts =
+   {
+      fx:
+      {
+         opacity: 'toggle',
+         duration: 'normal'
+      },
+      event: 'click',
+      deselectable: 'false'
+   };
+   $("#jQueryTabs1").tabs(jQueryTabs1Opts);
+   var Carousel1Opts =
+   {
+      delay: 3000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'forward',
+      pagination: true,
+      pagination_img_default: 'images/page_default.png',
+      pagination_img_active: 'images/page_active.png',
+      start: 0,
+      width: 362
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carousel('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carousel('next');
+   });
+});
+
+
+#scroll
+{
+   
+   color: #FFFFFF;
+}
+#Marquee1
+{
+   
+
+   text-align: center;
+}

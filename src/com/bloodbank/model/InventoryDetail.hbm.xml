@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 16, 2013 12:03:45 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.bloodbank.model.InventoryDetail" table="inventory_detail" catalog="blood_bank_new">
+        <id name="bloodGroup" type="string">
+            <column name="blood_group" length="45" />
+            <generator class="assigned" />
+        </id>
+        <property name="bottlesAvailable" type="int">
+            <column name="bottles_available" />
+        </property>
+    </class>
+</hibernate-mapping>

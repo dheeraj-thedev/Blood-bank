@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 16, 2013 7:17:24 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.bloodbank.model.DonorDetail" table="donor_detail" catalog="blood_bank_new">
+        <id name="donorId" type="java.lang.Integer">
+            <column name="donor_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="contactDetail" class="com.bloodbank.model.ContactDetail" fetch="select" cascade="all" lazy="false">
+            <column name="contact_id" />
+        </many-to-one>
+        <property name="bloodGroup" type="string">
+            <column name="blood_group" length="45" />
+        </property>
+        <property name="donatedTimes" type="java.lang.Integer">
+            <column name="donated_times" />
+        </property>
+        <property name="isSpecialDonor" type="string">
+            <column name="is_special_donor" length="45" />
+        </property>
+        <property name="donationDate" type="string">
+            <column name="donation_date" length="45" />
+        </property>
+        <property name="donorRandomId" type="string">
+            <column name="donor_random_id" length="45" />
+        </property>
+        <property name="weight" type="java.lang.Integer">
+            <column name="weight" />
+        </property>
+        <property name="bloodPressure" type="string">
+            <column name="blood_pressure" length="10" />
+        </property>
+        <property name="pulse" type="java.lang.Integer">
+            <column name="pulse" />
+        </property>
+        <property name="hemoglobin" type="string">
+            <column name="hemoglobin" length="10" />
+        </property>
+        <set name="patientDetails" table="patient_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="donor_id" />
+            </key>
+            <one-to-many class="com.bloodbank.model.PatientDetail" />
+        </set>
+        <set name="bloodBottleDetails" table="blood_bottle_detail" inverse="true" cascade="all" lazy="true" fetch="select">
+            <key>
+                <column name="donor_id" />
+            </key>
+            <one-to-many class="com.bloodbank.model.BloodBottleDetail" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 5, 2012 10:53:05 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.bloodbank.model.EventDetail" table="event_detail" catalog="blood_bank_new">
+        <id name="eventId" type="java.lang.Integer">
+            <column name="event_id" />
+            <generator class="native" />
+        </id>
+        <property name="eventTitle" type="string">
+            <column name="event_title" length="100" not-null="false" />
+        </property>
+        <property name="eventDate" type="string">
+            <column name="event_date" length="45" not-null="false" />
+        </property>
+       
+        <property name="eventVanue" type="string">
+            <column name="event_vanue" length="100" not-null="false" />
+        </property>
+        <property name="eventDescription" type="string">
+            <column name="event_description" length="300" not-null="false" />
+        </property>
+        <property name="eventIncharge" type="int">
+            <column name="event_incharge" not-null="false" />
+        </property>
+        <property name="eventCollection" type="int">
+            <column name="event_collection" not-null="false" />
+        </property>
+        <set name="bloodBottleDetails" table="blood_bottle_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="event_id" not-null="true" />
+            </key>
+            <one-to-many class="com.bloodbank.model.BloodBottleDetail" />
+        </set>
+        <set name="commentDetails" table="comment_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="event_id" not-null="true" />
+            </key>
+            <one-to-many class="com.bloodbank.model.CommentDetail" />
+        </set>
+        <set name="eventStaffDetails" table="event_staff_detail" >
+            <key>
+                <column name="event_id"/>
+            </key>
+            <many-to-many column="staff_id" unique="true" class="com.bloodbank.model.StaffDetail" />
+        </set>
+    </class>
+</hibernate-mapping>

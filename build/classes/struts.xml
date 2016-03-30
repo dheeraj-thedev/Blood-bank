@@ -1,0 +1,209 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+ <constant name="struts.devMode" value="false" />
+	<package name="sayHelloPackage" extends="struts-default">
+	
+		<action name="Login.Action" class="com.bloodbank.actions.LoginAction" method="login">
+			<result name="success">/index.jsp</result>
+			
+			<result name="input">/login.jsp</result>
+		</action>
+		<action name="logout" class="com.bloodbank.actions.LogOutAction" method="LogOutUser">
+			<result name="success">/index.jsp</result>
+			
+			<result name="input">/login.jsp</result>
+		</action>
+		
+		<action name="RegisterStaff" class="com.bloodbank.actions.RegisterStaffAction" method="registerStaff">
+			
+			
+			   <result name="input">/admin_staff.jsp</result>
+			<result name="success">confirm/admin_confirm.jsp</result>
+			
+		</action>
+		
+		<action name="ShowAllData" class="com.bloodbank.actions.ShowAllDonors"
+			method="showalldonor">
+			<result name="success">/showdatabydesign.jsp</result>
+		</action>
+		<action name="Event_Donr" class="com.bloodbank.actions.FillDonorInEventAction"
+			method="CheckFillDonor">
+			<result name="success">/confirm/Staff_confirm.jsp</result>
+		</action>
+		<action name="BottleTest" class="com.bloodbank.actions.BottleTestAction"
+			method="TestBottle">
+			<result name="success">/showeventdata.jsp</result>
+		</action>
+		<action name="FillTest" class="com.bloodbank.actions.BottleTestAction"
+			method="EnterTestDetail">
+			<result name="success">/blood_bottle_test.jsp</result>
+		</action>
+		<action name="check_type" class="com.bloodbank.actions.IssueDetailRegisterAction"
+			method="checkcustomertype">
+			<result name="success">/staff_create_issue.jsp</result>
+		</action>
+		<action name="FillDonor_event" class="com.bloodbank.actions.FillDonorInEventAction"
+			method="filldonor">
+			<result name="success">/event_donor.jsp</result>
+		</action>
+		<action name="ViewDonor_event" class="com.bloodbank.actions.ViewDonorInEventAction"
+			method="Viewdonor">
+			<result name="success">/showeventdata.jsp</result>
+		</action>
+		<action name="Showevents" class="com.bloodbank.actions.ShowAllEvents"
+			method="showevents">
+			<result name="success">/showstaffdata.jsp</result>
+		</action>
+		<action name="Delete_Event" class="com.bloodbank.actions.EditEventAction"
+			method="deleteevent">
+			<result name="success">confirm/admin_confirm.jsp</result>
+		</action>
+
+		<action name="reg_hos" class="com.bloodbank.actions.IssueDetailRegisterAction"
+			method="registerHospital">
+			<result name="success">confirm/Staff_confirm.jsp</result>
+		</action>
+		<action name="RegisterBottle" class="com.bloodbank.actions.BottleTestAction"
+			method="RegisterTestDetail">
+			<result name="success">confirm/Staff_confirm.jsp</result>
+		</action>
+		
+		<action name="check_patient" class="com.bloodbank.actions.IssueDetailRegisterAction"
+			method="checkpatientdonor">
+			<result name="success">/staff_create_issue.jsp</result>
+			<result name="input">/staff_create_issue.jsp</result>
+		</action>
+		<action name="check_donor_visit" class="com.bloodbank.actions.RegisterDonorAction"
+			method="checkdonor">
+			<result name="success">/addDonorDetail.jsp</result>
+			<result name="input">/staff_create_issue.jsp</result>
+		</action>
+		<action name="reg_patient" class="com.bloodbank.actions.IssueDetailRegisterAction"
+			method="registerPatient">
+			<result name="success">confirm/Staff_confirm.jsp</result>
+		</action>
+		
+		<action name="showstaff" class="com.bloodbank.actions.ShowAllContacts"
+			method="showallcontacts">
+			<result name="success">/showstaffdata.jsp</result>
+		</action>
+		<action name="showBottles" class="com.bloodbank.actions.ShowbottlesAvailable"
+			method="checkBottles">
+			<result name="success">/showbottles.jsp</result>
+		</action>
+		
+		<action name="createevent_admin" class="com.bloodbank.actions.AssociateStaffInEvent"
+			method="showallStaff">
+			<result name="success">/eventsubmit.jsp</result>
+		</action>
+		
+		<action name="DeleteStaff" class="com.bloodbank.actions.ShowAllContacts"
+			method="deleteSingleStaff">
+			<result name="success">confirm/admin_confirm.jsp</result>
+		</action>
+		
+		<action name="Listevents" class="com.bloodbank.actions.ShowAllEvents"
+			method="showevents">
+			<result name="success">/showeventdata.jsp</result>
+		</action>
+		<action name="RegisterEvent" class="com.bloodbank.actions.RegisterEventAction"
+			method="registerevent">
+			<result name="success">confirm/admin_confirm.jsp</result>
+			<result name="input">/eventsubmit.jsp</result>
+		</action>
+		<action name="EditStaff" class="com.bloodbank.actions.EditStaffAction"
+			method="getSingleStaff">
+			<result name="success">/admin_staff_edit.jsp</result>
+		</action>
+		<action name="EditRegisterStaff" class="com.bloodbank.actions.UpdateStaffAction"
+			method="updateStaffDetail">
+			<result name="success">confirm/admin_confirm.jsp</result>
+		</action>
+		<action name="EditUser" class="com.bloodbank.actions.UpdateStaffAction"
+			method="updateStaffDetail">
+			<result name="success">confirm/admin_confirm.jsp</result>
+		</action>
+		
+		<action name="RegisterUser" class="com.bloodbank.actions.RegisterUserAction" method="registerUser">
+			<result name="success">/user_confirm.jsp</result>
+			<result name="input">/register_User.jsp</result>
+		</action>
+			
+		<action name="RegisterDonor" class="com.bloodbank.actions.RegisterDonorAction" method="registerDonor">
+			<result name="success">confirm/Staff_confirm.jsp</result>
+			<result name="input">/addDonorDetail.jsp</result>
+		</action>
+		
+		<action name="ForgotPWD.Action" class="com.bloodbank.actions.ForgotPasswordAction" method="forgotpwd">
+			<result name="success">/member_home.jsp</result>
+		</action>
+		<action name="adminwork" class="com.bloodbank.actions.AdminPageAction" method="generatepage">
+			<result name="success">/admin_staff.jsp</result>
+		</action>
+		<action name="Userdetail" class="com.bloodbank.actions.EditMyDetailAction" method="editdetail">
+			<result name="success">/user_edit_detail.jsp</result>
+		</action>
+		<action name="DeleteMultipleStaff" class="com.bloodbank.actions.DeleteMultipleStaff" method="multipledelete">
+			<result name="success">/user_detail_form_edit.jsp</result>
+		</action>
+
+	<action name="Generate_Donor_Report" class="com.demo.action.Generate_Donor_Report"
+			method="generateJasperReport">
+			<result name="success">confirm/Staff_confirm.jsp</result>
+			</action>
+					<action name="showalldonor" class="com.bloodbank.actions.ShowAllDonors"
+			method="showAllDonors">
+			<result name="success">/showstaffdata.jsp</result>
+		</action>
+			<action name="Delete_Donor" class="com.bloodbank.actions.EditDonorAction" method="deleteDonor">
+			<result name="success">confirm/Staff_confirm.jsp</result>
+			<result name="input">/error.jsp</result>
+		</action>
+		<action name="Edit_Donor" class="com.bloodbank.actions.EditDonorAction" method="getSingleDonor">
+			<result name="success">/editDonorDetail.jsp</result>
+			<result name="input">/error.jsp</result>
+		</action>
+			<action name="GetIssue_HOS" class="com.bloodbank.actions.ShowIssueDetail" method="showHospital">
+			<result name="success">/showissuedetail.jsp</result>
+			<result name="input">/error.jsp</result>
+		</action>
+			<action name="GetIssue_Patient" class="com.bloodbank.actions.ShowIssueDetail" method="showPatients">
+			<result name="success">/showissuedetail.jsp</result>
+			<result name="input">/error.jsp</result>
+		</action>
+		<action name="contactus" class="com.bloodbank.actions.ContactUsAction" method="submitreply">
+			<result name="success">/contactus.jsp</result>
+			<result name="input">/contactus.jsp</result>
+		</action>
+		<action name="Delete_issue" class="com.bloodbank.actions.DeleteIssueDetail" method="deleteHospital">
+			<result name="success">confirm/Staff_confirm.jsp</result>
+			<result name="input">/contactus.jsp</result>
+		</action>
+		<action name="EditHospital" class="com.bloodbank.actions.EditIssueDetail" method="editHospital">
+			<result name="success">/staff_create_issue_edit.jsp</result>
+			<result name="input">/contactus.jsp</result>
+		</action>
+		<action name="Edit_patient" class="com.bloodbank.actions.EditIssueDetail" method="editPatient">
+			<result name="success">/patient_edit.jsp</result>
+			<result name="input">/patient_edit.jsp</result>
+		</action>
+			<action name="edit_patient_form" class="com.bloodbank.actions.IssueDetailRegisterAction" method="editPatientDetail">
+			<result name="success">/patient_edit.jsp</result>
+			<result name="input">/patient_edit.jsp</result>
+		</action>
+			<action name="Send_mail" class="com.bloodbank.actions.Sendmailtousers" method="SendMail">
+			<result name="success">/patient_edit_form.jsp</result>
+			<result name="input">/contactus.jsp</result>
+		</action>
+		<action name="viewmyreports" class="com.bloodbank.actions.Viewdonorreports" method="viewmyreportpdf">
+			<result name="success">/showdonorreports.jsp</result>
+			<result name="input">/contactus.jsp</result>
+		</action>
+		<action name="View_Report" class="com.demo.action.Generate_Donor_Report"
+			method="generateJasperReport">
+			<result name="success">/showdonorreports.jsp</result>
+			<result name="input">/contactus.jsp</result>
+		</action>
+		
+</package>
+</struts>

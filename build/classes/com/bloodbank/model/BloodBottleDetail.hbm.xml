@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 16, 2013 12:03:45 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.bloodbank.model.BloodBottleDetail" table="blood_bottle_detail" catalog="blood_bank_new">
+        <id name="bottleId" type="java.lang.Integer">
+            <column name="bottle_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="donorDetail" class="com.bloodbank.model.DonorDetail" cascade="all" lazy="false" fetch="select">
+            <column name="donor_id" />
+        </many-to-one>
+        <many-to-one name="eventDetail" class="com.bloodbank.model.EventDetail" fetch="select" cascade="all" lazy="false">
+            <column name="event_id" />
+        </many-to-one>
+        <property name="testingDate" type="string">
+            <column name="testing_date" length="100" />
+        </property>
+        <set name="testDetails" table="test_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="bottle_id" />
+            </key>
+            <one-to-many class="com.bloodbank.model.TestDetail" />
+        </set>
+    </class>
+</hibernate-mapping>

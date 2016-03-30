@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 16, 2013 12:03:45 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.bloodbank.model.ContactDetail" table="contact_detail" catalog="blood_bank_new">
+        <id name="contactId" type="java.lang.Integer">
+            <column name="contact_id" />
+            <generator class="identity" />
+        </id>
+        <property name="firstName" type="string">
+            <column name="first_name" length="45" />
+        </property>
+        <property name="middleName" type="string">
+            <column name="middle_name" length="45" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="last_name" length="45" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="45" />
+        </property>
+        <property name="city" type="string">
+            <column name="city" length="45" />
+        </property>
+        <property name="state" type="string">
+            <column name="state" length="45" />
+        </property>
+        <property name="pincode" type="string">
+            <column name="pincode" length="10" />
+        </property>
+        <property name="birthDate" type="string">
+            <column name="birth_date" length="45" />
+        </property>
+        <property name="contactNo" type="string">
+            <column name="contact_no" length="15" />
+        </property>
+        <property name="emailId" type="string">
+            <column name="email_id" length="100" />
+        </property>
+        <property name="gender" type="string">
+            <column name="gender" length="45" />
+        </property>
+        <set name="userDetails" table="user_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="contact_id" />
+            </key>
+            <one-to-many class="com.bloodbank.model.UserDetail" />
+        </set>
+        <set name="patientDetails" table="patient_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="contact_id" />
+            </key>
+            <one-to-many class="com.bloodbank.model.PatientDetail" />
+        </set>
+        <set name="staffDetails" table="staff_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="contact_id" />
+            </key>
+            <one-to-many class="com.bloodbank.model.StaffDetail" />
+        </set>
+        <set name="donorDetails" table="donor_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="contact_id" />
+            </key>
+            <one-to-many class="com.bloodbank.model.DonorDetail" />
+        </set>
+    </class>
+</hibernate-mapping>
