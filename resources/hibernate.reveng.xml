@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="blood_bank_new" match-name="account_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="blood_bottle_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="comment_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="contact_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="donor_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="event_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="event_staff_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="hospital_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="inventory_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="issue_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="patient_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="staff_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="test_detail"/>
+  <table-filter match-catalog="blood_bank_new" match-name="user_detail"/>
+</hibernate-reverse-engineering>

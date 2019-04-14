@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 16, 2013 12:03:45 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.bloodbank.model.UserDetail" table="user_detail" catalog="blood_bank_new">
+        <id name="userId" type="java.lang.Integer">
+            <column name="user_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="contactDetail" class="com.bloodbank.model.ContactDetail" cascade="all" lazy="false" fetch="select">
+            <column name="contact_id" />
+        </many-to-one>
+        <property name="creationDate" type="string">
+            <column name="creation_date" length="20" />
+        </property>
+        <property name="isDonor" type="string">
+            <column name="is_donor" length="10" />
+        </property>
+        <set name="commentDetails" table="comment_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="user_id" not-null="true" />
+            </key>
+            <one-to-many class="com.bloodbank.model.CommentDetail" />
+        </set>
+        <set name="accountDetails" table="account_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="user_id" />
+            </key>
+            <one-to-many class="com.bloodbank.model.AccountDetail" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="com.bloodbank.actions" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="115" y="183"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="com.bloodbank.dao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="135" x="233" y="155"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="com.bloodbank.model" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="149" x="408" y="155"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="com.bloodbank.util" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/util" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="131" x="597" y="155"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="com.demo.action" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/demo/action" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="122" x="768" y="155"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="com.bloodbank.dao.impl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="162" x="930" y="155"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

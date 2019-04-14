@@ -1,0 +1,6 @@
+com.bloodbank.actions
+com.bloodbank.dao
+com.bloodbank.dao.impl
+com.bloodbank.model
+com.bloodbank.util
+com.demo.action

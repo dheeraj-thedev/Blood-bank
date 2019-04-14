@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 16, 2013 12:03:45 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="com.bloodbank.model.HospitalDetail" table="hospital_detail" catalog="blood_bank_new">
+        <id name="HId" type="java.lang.Integer">
+            <column name="h_id" />
+            <generator class="identity" />
+        </id>
+        <property name="HName" type="string">
+            <column name="h_name" length="45" />
+        </property>
+        <property name="HAddress" type="string">
+            <column name="h_address" length="45" />
+        </property>
+        <set name="issueDetails" table="issue_detail" inverse="true" lazy="true" cascade="all" fetch="select">
+            <key>
+                <column name="h_id" />
+            </key>
+            <one-to-many class="com.bloodbank.model.IssueDetail" />
+        </set>
+    </class>
+</hibernate-mapping>

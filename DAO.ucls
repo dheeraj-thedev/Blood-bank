@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="com.bloodbank.dao.EventDetailDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/EventDetailDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="282" x="1862" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="com.bloodbank.dao.StaffDetailDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/StaffDetailDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="297" x="927" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="com.bloodbank.dao.BloodBottleDetailDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/BloodBottleDetailDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="311" x="2781" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="com.bloodbank.dao.AccountDetailDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/AccountDetailDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="257" x="1264" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="com.bloodbank.dao.UserDetailDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/UserDetailDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="261" x="1561" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="com.bloodbank.dao.DonorDetailDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/DonorDetailDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="238" x="2184" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="com.bloodbank.dao.IssueDetailDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/IssueDetailDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="248" x="41" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="8" language="java" name="com.bloodbank.dao.LogInMasterDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/LogInMasterDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="279" x="2462" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="com.bloodbank.dao.ContactDetailDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/ContactDetailDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="223" x="329" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="10" language="java" name="com.bloodbank.dao.InventoryDetailDao" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/InventoryDetailDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="295" x="592" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="com.bloodbank.dao.impl.DonorDetailDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/DonorDetailDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="238" x="2184" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.bloodbank.dao.impl.AccountDetailDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/AccountDetailDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="257" x="1264" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.bloodbank.dao.impl.BloodBottleDetailDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/BloodBottleDetailDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="311" x="2781" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.bloodbank.dao.impl.IssueDetailDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/IssueDetailDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="248" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.bloodbank.dao.impl.ContactDetailDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/ContactDetailDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="223" x="329" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.bloodbank.dao.impl.EventDetailDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/EventDetailDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="282" x="1862" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.bloodbank.dao.impl.InventoryDetailDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/InventoryDetailDaoImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="295" x="592" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.bloodbank.dao.impl.UserDetailDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/UserDetailDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="261" x="1561" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.bloodbank.dao.impl.StaffDetailDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/StaffDetailDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="297" x="927" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.bloodbank.dao.impl.LogInMasterDaoImpl" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/dao/impl/LogInMasterDaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="279" x="2462" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="21">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="22">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="23">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="25">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="26">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="27">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="28">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="29">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="30">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

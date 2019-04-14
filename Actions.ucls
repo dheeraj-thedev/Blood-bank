@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.bloodbank.actions.LogOutAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/LogOutAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="257" x="-23" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.bloodbank.actions.DeleteMultipleStaff" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/DeleteMultipleStaff.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="239" x="274" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.bloodbank.actions.ForgotPasswordAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/ForgotPasswordAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="205" x="553" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.bloodbank.actions.AssociateStaffInEvent" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/AssociateStaffInEvent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="209" x="798" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.bloodbank.actions.ShowAllContacts" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/ShowAllContacts.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="801" width="245" x="1047" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.bloodbank.actions.UpdateStaffAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/UpdateStaffAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="155" x="1332" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.bloodbank.actions.DeleteIssueDetail" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/DeleteIssueDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="134" x="1527" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.bloodbank.actions.ShowbottlesAvailable" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/ShowbottlesAvailable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="234" x="1701" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.bloodbank.actions.EditDonorAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/EditDonorAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="140" x="1975" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.bloodbank.actions.Sendmailtousers" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/Sendmailtousers.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="208" x="2155" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.bloodbank.actions.Viewdonorreports" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/Viewdonorreports.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="225" x="2403" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.bloodbank.actions.RegisterEventAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/RegisterEventAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="239" x="2668" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.bloodbank.actions.ShowAllDonors" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/ShowAllDonors.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="202" x="2947" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.bloodbank.actions.BottleTestAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/BottleTestAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="225" x="3189" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.bloodbank.actions.EditStaffAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/EditStaffAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="182" x="3454" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.bloodbank.actions.IssueDetailRegisterAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/IssueDetailRegisterAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="873" width="267" x="3676" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.bloodbank.actions.RegisterStaffAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/RegisterStaffAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="222" x="3983" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.bloodbank.actions.ViewDonorInEventAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/ViewDonorInEventAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="225" x="4245" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.bloodbank.actions.AdminPageAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/AdminPageAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="132" x="4510" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.bloodbank.actions.ShowIssueDetail" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/ShowIssueDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="208" x="4682" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.bloodbank.actions.EditEventAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/EditEventAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="166" x="4930" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.bloodbank.actions.EditMyDetailAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/EditMyDetailAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="257" x="5136" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.bloodbank.actions.ShowAllEvents" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/ShowAllEvents.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="198" x="5433" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.bloodbank.actions.RegisterDonorAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/RegisterDonorAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="675" width="383" x="5671" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.bloodbank.actions.RegisterUserAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/RegisterUserAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="675" width="257" x="6094" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.bloodbank.actions.ContactUsAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/ContactUsAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="144" x="6391" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.bloodbank.actions.FillDonorInEventAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/FillDonorInEventAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="171" x="6575" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.bloodbank.actions.LoginAction" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/LoginAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="257" x="6786" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.bloodbank.actions.EditIssueDetail" project="Blood-bank-master" 
+    file="/Blood-bank-master/src/com/bloodbank/actions/EditIssueDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="161" x="7083" y="-300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
